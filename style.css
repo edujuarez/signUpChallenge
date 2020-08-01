@@ -14,12 +14,14 @@ body {
 }
 .heroTxt {
     color: white;
-    text-align: center;
-    font-weight: 700;
+    text-align: justify;
+   font-size: larger;
     margin: 10% 5%;
 }
 .heroTxt h2{
     font-size: 16px;
+    text-align: justify;
+
 }
 .btnFreeTrial {
     background-color: hsl(248, 32%, 49%);
