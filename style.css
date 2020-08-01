@@ -1,0 +1,157 @@
+@import url("https://fonts.google.com/specimen/Poppins" );
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-image: url('./images/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+    margin:5%;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+}
+.heroTxt {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin: 10% 5%;
+}
+.heroTxt h2{
+    font-size: 16px;
+}
+.btnFreeTrial {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+    border: 1px solid hsl(248, 32%, 49%);
+
+}
+.formArea {
+    background-color: white;
+    padding: 5%;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: ghostwhite 4;
+    
+}
+.form {
+    flex-direction: column;
+}
+.form input {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    border-style: solid (gray);
+    font-weight: bold;  
+}
+.btnSubmit {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    width: 100%;
+    padding: 5%;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid hsl(154, 59%, 51%)
+    
+}
+.formArea h4 {
+    margin: 5%;
+    font-weight: 400;
+    color: grey;
+}
+.formArea b {
+    color: hsl(0, 100%, 74%);
+}
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
+@media (min-width:720px){
+    
+    body {
+        background-image: url('./images/bg-intro-desktop.png');
+        background-color: hsl(0, 100%, 74%);
+        margin:5%;
+        font-size: 16px;
+        font-family: "Poppins", serif;
+    }
+    .fWidth {
+        display:flex;
+        align-items: center;
+    }
+    .heroTxt {
+        color: white;
+        text-align: center;
+        font-weight: 700;
+        margin: 10% 5%;
+    }
+    .heroTxt h2{
+        font-size: 16px;
+    }
+    .btnFreeTrial {
+        background-color: hsl(248, 32%, 49%);
+        color: white;
+        width: 100%;
+        padding: 3%;
+        border-radius: 10px;
+        border: 1px solid hsl(248, 32%, 49%);
+    }
+    .formArea {
+        background-color: white;
+        padding: 5%;
+        flex-wrap: nowrap;
+        margin-top: 10px;
+        border-radius: 10px;
+        box-shadow: ghostwhite 4;
+        
+    }
+    .form {
+        flex-direction: column;
+    }
+    .form input {
+        flex-direction: column;
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid gainsboro;
+        border-style: solid (gray);
+        font-weight: bold;  
+    }
+    .btnSubmit {
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        width: 100%;
+        padding: 5%;
+        border-radius: 10px;
+        font-weight: 600;
+        border: 1px solid hsl(154, 59%, 51%)
+        
+    }
+    .formArea h4 {
+        margin: 5% auto;
+        font-weight: 400;
+        color: grey;
+    }
+    .formArea b {
+        color: hsl(0, 100%, 74%);
+    }
+    footer {
+        text-align: center;
+        padding-top: 20px;
+        width: 100%;
+        color: white;
+    }
+    footer a {
+        color:  hsl(248, 32%, 49%);
+        text-decoration: none;
+    }
+}
